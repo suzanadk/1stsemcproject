@@ -15,7 +15,7 @@ void createFile() {
 	int numQuestions;
     char filename[100];
     FILE *file;
-        printf("Enter the name of the File (Saved in.txt)");
+        printf("Enter the name of the file (Saved in.txt)");
         scanf("%s",filename);
         
 
@@ -31,7 +31,7 @@ void createFile() {
         //filling of the quizes
     printf("Start filling the Quiz from here on:\n");
 
-    // Prompt the user to enter the number of MCQs
+    // asking the user the user to enter the number of MCQs
     printf("Enter the number of MCQs: ");
     scanf("%d", &numQuestions);
 
